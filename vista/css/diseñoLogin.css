@@ -1,0 +1,44 @@
+* {
+  box-sizing: content-box;
+}
+body {
+  background: #2aabd2; 
+  color: ivory;
+  font-family: sans-serif;
+}
+
+body {
+  width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  color: black;
+  border: 1px solid snow;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+label, input,select {
+  width: 100%;
+  display: block;
+  font-size: 1.3em;
+}
+input, select {
+  padding: 6px;
+  margin-bottom: 30px;
+}
+input[type="submit"] {
+  width: 30%;
+  margin: auto;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.error {
+  color: red;
+}
+
