@@ -1,10 +1,10 @@
 //validar registro Profesor
 function validarRegistro(){
-    var nombre = document.querySelector("#use_name").value;
-    var apellido = document.querySelector("#use_surname").value;
+    var nombre = document.querySelector("#use_name").value();
+    var apellido = document.querySelector("#use_surname").value();
     var Teléfono = document.querySelector("#");
-    var Contraseña = document.querySelector("#use_password").value;
-    var NúmeroDocumento = document.querySelector("#use_id").value;
+    var Contraseña = document.querySelector("#use_password").value();
+    var NúmeroDocumento = document.querySelector("#use_id").value();
     var FechaDeNacimiento = document.querySelector("#");
     
     //valiar nombre
