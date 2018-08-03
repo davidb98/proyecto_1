@@ -5,7 +5,7 @@
     </head>
     <body>
 <form  action="<?= ACTIVITY_CONSULTA_ESTUDENT_PROFESOR['url'] ?>" method="POST">
-    <h1>Docentes</h1>
+    <h1>Estudiantes</h1>
 <table   class="table table-hover">
 
 

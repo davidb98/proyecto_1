@@ -31,7 +31,7 @@
     </div>
     <div class="form-group">
        <label for="use_id">Número documento</label>
-       <input type="text"  class="form-control" id="use_id" name="use_id" maxlength="6"  pattern="(?=.\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" required=""/>
+       <input type="text"  class="form-control" id="use_id" name="use_id" pattern="(?=.\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" required=""/>
     </div>
       <div class="form-group">
       <label for="use_document_type">Tipo De documento</label>
@@ -55,7 +55,7 @@
 </div>
     
 </body>
-<script src="js/validacionResgistroProfesor.js"></script>
+<script src="js/validacionResgistro.js"></script>
 </html>
 
 <!DOCTYPE html>
