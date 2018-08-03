@@ -24,7 +24,23 @@ function validarRegistro(){
             return false;
         }
     }
+    //valiar apellido
     
+    if (apellido != ""){
+        
+        var caracter = apellido.length;
+        var expresion = /^[a-zA-Z]*$/;
+        
+        if (caracter > 10){
+            document.querySelector("label[for = 'use_surname']").innerHTML += "<br>escriba porfavor un nombre valido.";
+            return false;
+        }
+        
+        if(!expresion.test(nombre)){
+            document.querySelector("label[for='use_surname']").innerHTML += "<br> no escriba caracteres especiales.";
+            return false;
+        }
+    }
     //valiar contraseña
     
     if (Contraseña != ""){
@@ -43,7 +59,25 @@ function validarRegistro(){
         }
         
     }
-    return true;
+    //valiar contraseña
+    
+    if (NúmeroDocumento != ""){
+        
+        var caracter = NúmeroDocumento.length;
+        var expresion = /^[0-9]*$/;
+        
+        if (caracter > 6){
+            document.querySelector("label[for = 'use_id']").innerHTML += "<br> el numero de documento devetener almenos 10 caracteres.";
+            return false;
+        }
+        
+        if(!expresion.test(nombre)){
+            document.querySelector("label[for='use_id']").innerHTML += "<br> no escriba caracteres especiales y letras.";
+            return false;
+        }
+        
+    }
+//     
     
 }
 

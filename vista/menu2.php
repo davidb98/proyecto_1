@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>planA</title>
         <link rel="stylesheet" href="<?= FOLDER_RESOURCES ?>css/bootstrap.css"/>
         <script type="text/javascript" src="<?= FOLDER_RESOURCES ?>js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="<?= FOLDER_RESOURCES ?>js/bootstrap.min.js"></script>

@@ -1,4 +1,4 @@
-var gestionUsuario = {
+ var gestionUsuario = {
     "inicializador": function () {
         $('#frm').on('submit', gestionUsuario.validar);
     },
