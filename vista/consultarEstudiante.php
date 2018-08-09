@@ -13,6 +13,7 @@
     <th>Nombre</th>
     <th>Apellido</th>
     <th>Teléfono</th>
+    <th>Correo</th>
 <!--    <th>Curso</th>-->
 
 </thead>
@@ -22,6 +23,7 @@
         <td><?= $obj->name ?></td>
         <td><?= $obj->surname ?></td>
         <td><?= $obj->phone_number ?></td>
+        <td><?= $obj->email ?></td>
         <!--<td>//<?= $obj->grade ?></td>-->
        
     </tr>

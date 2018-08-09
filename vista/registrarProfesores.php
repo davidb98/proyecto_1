@@ -29,6 +29,10 @@
        <label for="use_address">Direccion</label>
        <input type="text"  class="form-control" id="use_address" name="use_address" required=""/>
     </div>
+      <div class="form-group">
+          <label for="use_email">Correo</label>
+          <input type="email" class="form-control" id="use_email" name="use_email" required=""/>
+      </div>
     <div class="form-group">
        <label for="use_id">Número documento</label>
        <input type="text"  class="form-control" id="use_id" name="use_id" pattern="(?=.\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" required=""/>

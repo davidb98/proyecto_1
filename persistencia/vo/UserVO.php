@@ -22,6 +22,7 @@ class UserVO implements IGenericVO {
     private $password;
     private $birth_date;
     private $active_y_n;
+    private $email;
 
     function getId_user() {
         return $this->id_user;
@@ -110,8 +111,15 @@ class UserVO implements IGenericVO {
     function setActive_y_n($active_y_n) {
         $this->active_y_n = $active_y_n;
     }
+    function getEmail() {
+        return $this->email;
+    }
 
-    public function getAttributes() {
+    function setEmail($email) {
+        $this->email = $email;
+    }
+
+        public function getAttributes() {
         $attributes = array();
         $attributes['id_user'] = $this->id_user;
         $attributes['id_type_user'] = $this->id_type_user;
@@ -124,6 +132,7 @@ class UserVO implements IGenericVO {
         $attributes['password'] = $this->password;
         $attributes['birth_date'] = $this->birth_date;
         $attributes['active_y_n'] = $this->active_y_n;
+        $attributes['email'] = $this->email;
         return $attributes;
     }
 

@@ -13,7 +13,7 @@
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 form-group">
                             <label for="gra_grade" class="control-label">Curso</label>
                             <input type="text" class="form-control" id="gra_grade" name="gra_grade">
-                            <label for="gra_grade_year" class="control-label">AÑO</label>
+                            <label for="gra_grade_year" class="control-label">Año</label>
                             <input type="text" class="form-control" id="gra_grade_year" name="gra_grade_year">
                         </div>
                     </div>
@@ -32,6 +32,7 @@
 <table class="table table-striped">
     <thead>
     <th>Curso</th>
+    <th>Año</th>
 </thead>
 <tbody>
     <?php foreach ($lista as $obj) { ?>
@@ -44,8 +45,8 @@
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="exampleModalLabel">Modificar</h4>
+<!--                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+<!--                                <h4 class="modal-title" id="exampleModalLabel">Modificar</h4>-->
                             </div>
                             <div class="modal-body">
 
